@@ -1,7 +1,7 @@
 # Es6ComponentsManager
 Es6 Web-Components-Manager with webpack, browsersync and optional electron
 
-There are 2 programs in this project.
+There are 2 programs in this project (you can just download jars).
 
 1. CreateWebProject
 2. CreateWebComponent
