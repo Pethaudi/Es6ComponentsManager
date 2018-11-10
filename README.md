@@ -16,11 +16,11 @@ run the following commands in different terminal windows
 
 ## CreateWebProject
 ### Results
-Generates a project of the folling structure:
+Generates a project with the folling structure:
 ```bash
 ├ src/
 │ ├ components/ // places every new generated component here
-│ ├ dist/       // webpack places here the generated js file
+│ ├ dist/       // webpack places the generated js file here
 │ ├ index.html
 │ ├ main.js     // registeres every component automatically here
 │ └ styles.css
@@ -33,7 +33,7 @@ Generates a project of the folling structure:
 ### Parameter: [-e] [projectname]
 (you can put them in any order)
 
--e: generates you an electron app (is important for the browsersync script)
+-e: generates an electron app (important for the browsersync script)
 
 projectname: no constraints
 
@@ -42,7 +42,7 @@ java -jar CreateWebProject.jar TestMeWithElectron -e
 
 ## CreateWebComponent
 ### Results
-Generates a 3 files for a webcomponent under the components/ folder and registers the component automatically in the main.js of the project. (command needs to be run the root folder)
+Generates 3 files for a webcomponent underneath components/ and registers the component automatically in the main.js of the project. (command needs to be run in the root folder)
 ```bash
 └ components
   └ newComponent
@@ -53,4 +53,7 @@ Generates a 3 files for a webcomponent under the components/ folder and register
     
 ### Parameter
 You need to pass a name for the component.
-There are the same constraint as for a javascript-class-name. It won't display you any errors, just the javascript engine and webpack will tell that there is something wrong
+There are the same constraints as for a javascript-class-name. It won't display any errors, only the javascript engine and webpack will tell that there is something wrong
+
+### Example
+java -jar CreateWebComponent.jar NewComponent
