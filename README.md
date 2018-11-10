@@ -17,6 +17,7 @@ run the following commands in different terminal windows
 ## CreateWebProject
 ### Results
 Generates a project of the folling structure:
+```bash
 ├ src/
 │ ├ components/ // places every new generated component here
 │ ├ dist/       // webpack places here the generated js file
@@ -27,6 +28,7 @@ Generates a project of the folling structure:
 ├ index.js (if electron was selected)
 ├ package.json  // commands are already predefined
 └ webpack.config.js
+```
 
 ### Parameter: [-e] [projectname]
 (you can put them in any order)
@@ -41,11 +43,13 @@ java -jar CreateWebProject.jar TestMeWithElectron -e
 ## CreateWebComponent
 ### Results
 Generates a 3 files for a webcomponent under the components/ folder and registers the component automatically in the main.js of the project. (command needs to be run the root folder)
+```bash
 └ components
   └ newComponent
     ├ newComponent.component.js
     ├ newComponent.component.css
     └ newComponent.component.html
+```
     
 ### Parameter
 You need to pass a name for the component.
