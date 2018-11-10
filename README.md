@@ -18,7 +18,6 @@ run the following commands in different terminal windows
 ### Results
 Generates a project of the folling structure:
 ├ src/
-
 │ ├ components/ // places every new generated component here
 │ ├ dist/       // webpack places here the generated js file
 │ ├ index.html
