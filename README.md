@@ -25,7 +25,7 @@ Generates a project with the folling structure:
 │ ├ main.js     // registeres every component automatically here
 │ └ styles.css
 │
-├ index.js (if electron was selected)
+├ index.js      // if electron was selected
 ├ package.json  // commands are already predefined
 └ webpack.config.js
 ```
